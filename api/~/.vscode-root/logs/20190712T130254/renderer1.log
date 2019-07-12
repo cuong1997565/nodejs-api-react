@@ -1,0 +1,21 @@
+[2019-07-12 13:03:08.997] [renderer1] [warning] UNRESPONSIVE extension host, 'Zignd.html-css-class-completion' took 98% of 1158.189ms, saved PROFILE here: '/tmp/exthost-b9f9c0.cpuprofile' [{"id":"gc","total":12096,"percentage":1},{"id":"program","total":4425,"percentage":0},{"id":"self","total":1579,"percentage":0},{"id":"Zignd.html-css-class-completion","total":1138002,"percentage":98}]
+[2019-07-12 13:04:29.454] [renderer1] [error] Error: Error: ENOENT: no such file or directory, stat '/var/www/nodejs/nodejs-api-react/.vscode'
+[2019-07-12 13:19:38.950] [renderer1] [error] Unable to move/copy when source path is equal or parent of target path: Error: Unable to move/copy when source path is equal or parent of target path
+    at b.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3316:930)
+    at Generator.next (<anonymous>)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:621
+    at new Promise (<anonymous>)
+    at n (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:398)
+    at b.doValidateMoveCopy (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3316:783)
+    at b.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3315:395)
+    at Generator.next (<anonymous>)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:621
+    at new Promise (<anonymous>)
+    at n (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:398)
+    at b.doMoveCopy (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3315:320)
+    at b.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3314:783)
+    at Generator.next (<anonymous>)
+    at r (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:454)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-07-12 15:14:34.105] [renderer1] [warning] UNRESPONSIVE extension host, 'Zignd.html-css-class-completion' took 96% of 1657.964ms, saved PROFILE here: '/tmp/exthost-81c172.cpuprofile' [{"id":"gc","total":28050,"percentage":2},{"id":"program","total":2703,"percentage":0},{"id":"self","total":27251,"percentage":2},{"id":"Zignd.html-css-class-completion","total":1598173,"percentage":96}]
+[2019-07-12 15:16:20.506] [renderer1] [error] Error: Error: ENOENT: no such file or directory, stat '/var/www/tabione-front/.vscode'

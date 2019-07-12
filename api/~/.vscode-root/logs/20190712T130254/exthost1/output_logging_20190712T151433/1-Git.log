@@ -1,0 +1,528 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /var/www/tabione-front
+> git status -z -u
+> git check-ignore -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git show :routes/web.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :resources/assets/js/vue/components/planList/PlanListSearchForm.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :resources/assets/js/vue/components/planList/PlanListSearchForm.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :resources/assets/js/vue/components/index.js
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :resources/assets/js/vue/components/booking/ReserveList.vue
+> git check-ignore -z --stdin
+> git show :resources/assets/js/vue/components/booking/components/ReserveListItem.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :resources/assets/js/vue/components/booking/components/ReserveListItem.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :resources/assets/js/vue/components/booking/components/ReserveListItem.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :resources/assets/js/vue/components/planList/PlanListSearchForm.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :resources/assets/js/vue/components/planList/PlanListResult.vue
+> git show :resources/assets/js/vue/components/jaPlanList/JaPlanListContent.vue
+> git show :resources/assets/js/vue/components/planList/PlanListContent.vue
+> git show :resources/assets/js/vue/components/jaPlanList/JaPlanListContent.vue
+> git show :resources/assets/js/vue/components/planList/PlanListContent.vue
+> git show :resources/assets/js/vue/components/planList/PlanListResult.vue
+> git show :resources/assets/js/vue/components/planList/PlanListContent.vue
+> git show :resources/assets/js/vue/components/planList/PlanListSearchForm.vue
+> git show :resources/assets/js/vue/components/planList/PlanListContent.vue
+> git show :resources/assets/js/vue/components/booking/components/ReserveListItem.vue
+> git show :resources/assets/js/vue/components/planList/PlanListContent.vue
+> git show :resources/assets/js/vue/components/booking/components/ReserveListItem.vue
+> git show :resources/assets/js/vue/components/planList/PlanListContent.vue
+> git show :resources/assets/js/vue/components/planList/PlanListSearchForm.vue
+> git show :resources/assets/js/vue/components/jaPlanList/JaPlanListContent.vue
+> git show :resources/assets/js/vue/components/planList/PlanListResult.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :resources/assets/js/vue/components/planList/PlanListSearchForm.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :resources/assets/js/vue/components/planList/PlanListResult.vue
+> git show :resources/assets/js/vue/components/booking/components/ReserveListItem.vue
+> git show :resources/assets/js/vue/components/planList/PlanListResult.vue
+> git show :resources/assets/js/vue/components/planList/PlanListSearchForm.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :resources/views/layout/head.blade.php
+> git show :resources/assets/js/vue/components/planList/PlanListSearchForm.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :resources/views/layout/head.blade.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git show :resources/assets/js/vue/components/planList/PlanListSearchForm.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :resources/assets/js/vue/components/planList/PlanListSearchForm.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :resources/assets/js/vue/components/booking/components/ReserveListItem.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :resources/assets/js/vue/components/planList/PlanListResult.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :resources/assets/js/vue/components/booking/components/ReserveListItem.vue
+> git show :resources/assets/js/vue/components/planList/PlanListResult.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/course_detail
+> git rev-parse --symbolic-full-name feature/course_detail@{u}
+fatal: no upstream configured for branch 'feature/course_detail'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :resources/assets/js/vue/components/planList/PlanListSearchForm.vue

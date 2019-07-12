@@ -93,23 +93,22 @@ exports.person_update = (req,res,next) => {
         company : req.body.company,
         age     : req.body.age
     };
-    console.log(update);
-    // Person.update({ _id: id }, { $set: update})
-    // .exec()
-    // .then(result => {
-    //     res.status(200).json({
-    //         message : 'Update person!',
-    //         person: result,
-    //         request: {
-    //             type : 'GET',
-    //             url : 'http://localhost:4000/persons/'+ id
-    //         }
-    //     })
-    // }).catch(err => {
-    //     res.status(500).json({
-    //       error: err
-    //     });
-    // });
+    Person.update({ _id: id }, { $set: update})
+    .exec()
+    .then(result => {
+        res.status(200).json({
+            message : 'Update person!',
+            person: result,
+            request: {
+                type : 'GET',
+                url : 'http://localhost:4000/persons/'+ id
+            }
+        })
+    }).catch(err => {
+        res.status(500).json({
+          error: err
+        });
+    });
     
 }
 

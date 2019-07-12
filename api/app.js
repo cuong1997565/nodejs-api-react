@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const personsRoutes = require('./router/persons');
+const acountRoutes = require('./router/acount');
 const config = require('./db');
 
 mongoose.Promise = global.Promise;
@@ -13,11 +14,13 @@ mongoose.connect(config.DB, { useNewUrlParser: true }).then(
 )
 
 app.use(cors());
+app.use('/upload', express.static('upload'));
 app.use(bodyParser.urlencoded({extend : false}));
 app.use(bodyParser.json());
 
 
 app.use('/persons', personsRoutes);
+app.use('/acount', acountRoutes);
 
 
 app.use((req,res,next) => {

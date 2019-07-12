@@ -1,0 +1,101 @@
+file:///var/www/tabione-front/resources/assets/js/vue/components/booking/components/ReserveListItem.vue
+<template>
+  <div class="mypage-blc">
+    <div class="mypage-blc-head">
+      <h3 class="mypage-sttle">ご予約内容{{ index }}</h3>
+      <span>予約番号 {{ listItem.reserve_cd }}</span>
+    </div>
+    <div class="mypage-blc-body">
+      <table class="mypage-table">
+        <tbody>
+          <tr>
+            <th>ご利用ステータス</th>
+            <td>
+              <div :class="statusClass">{{ statusText }}</div>
+            </td>
+          </tr>
+          <tr>
+            <th>予約日</th>
+            <td>{{ listItem.booking_date | date('YYYY-MM-DD') }}</td>
+          </tr>
+          <tr>
+            <th>利用日</th>
+            <td>{{ listItem.tour_date | date('YYYY-MM-DD') }}</td>
+          </tr>
+          <tr>
+            <th>プラン名</th>
+            <td>{{ listItem.plan }}</td>
+          </tr>
+          <tr>
+            <th>コース名</th>
+            <td>{{ listItem.course }}</td>
+          </tr>
+          <tr>
+            <th>人数</th>
+            <td><ReserveNumList :fare-list="listItem.fareList" /> </td>
+          </tr>
+          <tr>
+            <td colspan="2"><a :href="urlDetail" class="mypage-btn-detail btn btn-primary">詳細を見る</a></td>
+          </tr>
+        </tbody>
+      </table>
+      
+    </div>
+  </div>
+</template>
+
+<script>
+// Vueコンポーネント
+import ReserveNumList from './ReserveNumList'
+// その他
+import UrlUtil from '@/utils/UrlUtil'
+
+export default {
+  name: 'ReserveListItem',
+
+  components: {
+    ReserveNumList,
+  },
+
+  props: {
+    /** @type ReserveListItemModel */
+    listItem: {
+      type: Object,
+      required: true,
+    },
+
+    index: {
+      type: Number,
+      required: true,
+    },
+  },
+  computed: {
+    statusClass() {
+      return statusClassList[this.listItem.reserve_status]
+    },
+
+    statusText() {
+      return statusTextList[this.listItem.reserve_status]
+    },
+
+    urlDetail() {
+      return UrlUtil.url('member/rsv_detail', { reserve_cd: this.listItem.reserve_cd })
+    },
+  },
+}
+
+const statusClassList = {
+  10: 'mypage-status-01',
+  20: 'mypage-status-02',
+  30: 'mypage-status-03',
+}
+
+const statusTextList = {
+  10: '確定',
+  20: 'リクエスト中',
+  30: 'キャンセル',
+}
+</script>
+
+<style lang="scss" scoped>
+</style>
