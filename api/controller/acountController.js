@@ -4,10 +4,11 @@ const path = require("path");
 const del = require("del");
 exports.acount_list = (req,res,next) => {
     Acount.find().sort({_id : -1})
-    .select('personId email password _id phone')
+    .select('personId email password _id phone image')
     .populate("personId")
     .exec()
     .then(result => {
+
         if(result.length >= 0) {
             res.status(200).json({
                 message  : "Handling Get requests to /acount",
@@ -22,8 +23,7 @@ exports.acount_list = (req,res,next) => {
                         image :     result.image, 
                         request : {
                             type : 'GET',
-                            url  : 'http://localhost:4000/'+result._id 
-                        }
+                            url  : 'http://localhost:4000/'+result._id                        }
                     }
                 })
             })

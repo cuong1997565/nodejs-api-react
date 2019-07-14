@@ -15,6 +15,21 @@ export const actFetchPerson = (persons) => {
     }
 }
 
+export const actFetchAcountsRequest = () => {
+    return (dispatch) => {
+        return callApi('acount', 'GET', null).then(res => {
+            dispatch(actFetchAcount(res.data));
+        });
+    }
+}
+
+export const actFetchAcount = (acount) => {
+    return {
+        type : Types.FETCH_ACOUNT,
+        acount
+    }
+}
+
 export const actAddPersonRequest = (persons) => {
     return (dispatch) => {
         return callApi('persons', 'POST', persons).then(res => {

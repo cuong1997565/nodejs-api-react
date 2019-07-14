@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Create from './components/create';
-import Edit from './components/edit';
-import Index from './components/index';
+import Create from './components/person/create';
+import Edit from './components/person/edit';
+import Index from './components/person/index';
+import indexAcount from './components/acount/indexAcount';
+import createAcount from './components/acount/createAcount';
 function App() {
   return (
     <Router>
@@ -20,6 +22,9 @@ function App() {
                     <li className="nav-item">
                         <Link to={'/index'} className="nav-link">Index</Link>
                     </li>
+                    <li className="nav-item">
+                        <Link to={'/index-count'} className="nav-link">Acount</Link>
+                    </li>
                 </ul>
             </div>
         </nav> <br/>
@@ -28,6 +33,9 @@ function App() {
             <Route exact path='/create' component={ Create } />
             <Route path='/edit/:id' component={ Edit } />
             <Route path='/index' component={ Index } />
+            <Route path='/index-count' component={ indexAcount } />
+            <Route path='/create-count' component={ createAcount } />
+
         </Switch>
     </div>
 </Router>

@@ -14,14 +14,12 @@ mongoose.connect(config.DB, { useNewUrlParser: true }).then(
 )
 
 app.use(cors());
-app.use('/upload', express.static('upload'));
 app.use(bodyParser.urlencoded({extend : false}));
+app.use('/upload', express.static('upload'));
 app.use(bodyParser.json());
-
 
 app.use('/persons', personsRoutes);
 app.use('/acount', acountRoutes);
-
 
 app.use((req,res,next) => {
     const error = new Error('Not found');
