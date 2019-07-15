@@ -47,25 +47,56 @@ exports.acount_create = (req, res, next)  => {
         email     : req.body.email,
         password  : req.body.password,
         phone     : req.body.phone,
-        image     : req.file.path 
+        image     : req.file.path
     });
-
+    console.log(acount);
     acount.save().then(result => {
-        res.status(201).json({
-            message : "Handling Post requests to /acount",
-            createAcount : {
-                _id   : new mongoose.Types.ObjectId(),  
-                personId  : result.personId,
-                email     : result.email,
-                password  : result.password,
-                phone     : result.phone,
-                image     : result.image, 
-                request: {
-                    type : 'GET',
-                    url  : 'http://localhost:4000/acount/'+ result._id 
-                } 
+        // res.status(201).json({
+        //     message : "Handling Post requests to /acount",
+        //     // createAcount : {
+        //     //     _id   : new mongoose.Types.ObjectId(),  
+        //     //     personId  : result.personId,
+        //     //     email     : result.email,
+        //     //     password  : result.password,
+        //     //     phone     : result.phone,
+        //     //     image     : result.image, 
+        //     //     request: {
+        //     //         type : 'GET',
+        //     //         url  : 'http://localhost:4000/acount/'+ result._id 
+        //     //     } 
+        //     // }
+        // }).catch(err => console.log(err));
+        Acount.findById(result._id)
+        .select('personId email password _id phone image')
+        .populate("personId")
+        .exec()
+        .then(result => {
+            if(!result) {
+                return res.status(404).json({
+                    message : "Acount not found"
+                })
+            } else{
+                res.status(200).json({
+                    message : 'Handling Post requests to /acount',
+                    acount: {
+                        _id     : result._id,
+                        personId  : result.personId,
+                        email     : result.email,
+                        password  : result.password,
+                        phone     : result.phone,
+                        image :     result.image, 
+                    },
+                    request : {
+                        type : "GET",
+                        url : "http://localhost:3000/acount/"+result._id
+                    }
+                })
             }
-        }).catch(err => console.log(err));
+        }).catch(err => {
+                res.status(500).json({
+                    error : err
+                })
+        });
     });
 }
 
