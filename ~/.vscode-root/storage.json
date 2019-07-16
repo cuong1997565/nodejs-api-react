@@ -2,6 +2,8 @@
     "telemetry.machineId": "afc5ce7dad504a4107ee7a08e50681437105fc8b948a252278ca65ef15607503",
     "openedPathsList": {
         "workspaces3": [
+            "file:///var/www/nodejs/nodejs-api-react",
+            "file:///var/www/tabione-front",
             "file:///var/www/nodejs/reactcrud"
         ],
         "files2": []
@@ -49,7 +51,29 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/var/www/nodejs/reactcrud",
+                                        "fsPath": "/var/www/nodejs/nodejs-api-react",
+                                        "external": "file:///var/www/nodejs/nodejs-api-react",
+                                        "path": "/var/www/nodejs/nodejs-api-react",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/var/www/nodejs/nodejs-api-react"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///var/www/tabione-front",
+                                        "path": "/var/www/tabione-front",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/var/www/tabione-front"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///var/www/nodejs/reactcrud",
                                         "path": "/var/www/nodejs/reactcrud",
                                         "scheme": "file"

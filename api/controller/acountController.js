@@ -8,7 +8,6 @@ exports.acount_list = (req,res,next) => {
     .populate("personId")
     .exec()
     .then(result => {
-
         if(result.length >= 0) {
             res.status(200).json({
                 message  : "Handling Get requests to /acount",
@@ -144,12 +143,21 @@ exports.acount_update = (req, res, next) => {
         phone     : req.body.phone,
         image     : req.file.path 
     });
+    console.log(acount);
+    console.log(id);
     Acount.update({_id: id},{$set : acount})
     .exec()
     .then(result => {
         res.status(200).json({
             message : 'Update acount!',
-            acount : result,
+            acount : {
+                _id       : id,
+                personId  : req.body.personId,
+                email     : req.body.email,
+                password  : req.body.password,
+                phone     : req.body.phone,
+                image     : req.file.path 
+            },
             request : {
                 type : 'GET',
                 url : 'http://localhost:3000/acount/'+id
@@ -171,6 +179,17 @@ exports.acount_delete = (req,res,next) => {
         del([path.join("upload", result.image)]).then(deleted => {
             console.log("remove file");
         })
+        Acount.remove({_id : id})
+        .exec()
+        .then(response => {
+            res.status(200).json({
+                message : 'Deleted person!',
+                request : {
+                    type : 'POST',
+                    url : 'http://localhost:3000/persons'
+                }
+            });
+        })
     }).catch(err => {
         res.status(500).json({
             error : err
@@ -178,3 +197,45 @@ exports.acount_delete = (req,res,next) => {
     })
     
 }
+
+exports.acount_sreach = (req, res, next) => {
+        const keyword = req.body.email;
+        var query = { 'email': new RegExp(keyword) }
+        console.log(query);
+        Acount.find(query)
+    .select('personId email password _id phone image')
+    .populate("personId")
+    .exec()
+    .then(result => {
+        if(result.length >= 0) {
+            console.log(result);
+            res.status(200).json({
+                message  : "Sreach Get requests to /acount keyword :"+keyword,
+                count    : result.length,
+                acount  : result.map(result => {
+                    return {
+                        _id     : result._id,
+                        personId  : result.personId,
+                        email     : result.email,
+                        password  : result.password,
+                        phone     : result.phone,
+                        image :     result.image, 
+                        request : {
+                            type : 'GET',
+                            url  : 'http://localhost:4000/'+result._id                        }
+                    }
+                })
+            })
+        } else {
+            res.status(404).json({
+                message : 'no entries found'
+            })
+        }
+    }).catch(err => {
+        console.log(err);
+        res.status(500).json({
+            error : err
+        })
+    });
+}
+

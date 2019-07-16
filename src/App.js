@@ -36,8 +36,7 @@ function App() {
             <Route path='/index' component={ Index } />
             <Route path='/index-acount' component={ indexAcount } />
             <Route path='/create-acount' component={ createAcount } />
-            <Route path='edit-acount/:id' component={ editAcount } />
-
+            <Route path='/edit-acount/:id' component={ editAcount } />
         </Switch>
     </div>
 </Router>

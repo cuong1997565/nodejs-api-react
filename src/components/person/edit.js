@@ -34,6 +34,7 @@ class Edit extends Component {
     }
     
     componentWillReceiveProps(nextProps) {
+        console.log(nextProps);
         if(nextProps && nextProps.itemEditing) {
             var {itemEditing} = nextProps;
             this.setState({

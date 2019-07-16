@@ -1,0 +1,241 @@
+[2019-07-16 08:25:58.006] [renderer1] [error] Error: Error: ENOENT: no such file or directory, stat '/var/www/nodejs/nodejs-api-react/.vscode'
+[2019-07-16 08:26:01.572] [renderer1] [warning] UNRESPONSIVE extension host, 'vscode.typescript-language-features' took 93% of 184.094ms, saved PROFILE here: '/tmp/exthost-2672d0.cpuprofile' [{"id":"vscode.typescript-language-features","total":172095,"percentage":93}]
+[2019-07-16 08:53:49.182] [renderer1] [error] Unable to move/copy when source path is equal or parent of target path: Error: Unable to move/copy when source path is equal or parent of target path
+    at b.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3316:930)
+    at Generator.next (<anonymous>)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:621
+    at new Promise (<anonymous>)
+    at n (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:398)
+    at b.doValidateMoveCopy (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3316:783)
+    at b.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3315:395)
+    at Generator.next (<anonymous>)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:621
+    at new Promise (<anonymous>)
+    at n (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:398)
+    at b.doMoveCopy (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3315:320)
+    at b.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3314:783)
+    at Generator.next (<anonymous>)
+    at r (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:454)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-07-16 08:54:36.689] [renderer1] [error] TypeScript Server Error (3.4.5)
+Cannot read property 'emitNode' of undefined
+TypeError: Cannot read property 'emitNode' of undefined
+    at Object.getStartsOnNewLine (tsserver.js:63202:29)
+    at shouldWriteSeparatingLineTerminator (tsserver.js:86516:27)
+    at emitNodeList (tsserver.js:86301:29)
+    at emitList (tsserver.js:86198:13)
+    at Object.writeList (tsserver.js:83641:13)
+    at tsserver.js:106759:29
+    at Object.mapToDisplayParts (tsserver.js:96621:13)
+    at itemInfoForParameters (tsserver.js:106756:41)
+    at getSignatureHelpItem (tsserver.js:106722:95)
+    at tsserver.js:106695:79
+    at Array.map (<anonymous>)
+    at createSignatureHelpItems (tsserver.js:106695:36)
+    at tsserver.js:106367:120
+    at Object.runWithCancellationToken (tsserver.js:31444:28)
+    at tsserver.js:106367:44
+    at Object.firstDefined (tsserver.js:305:26)
+    at tsserver.js:106363:27
+    at Object.firstDefined (tsserver.js:305:26)
+    at createJSSignatureHelpItems (tsserver.js:106362:56)
+    at Object.getSignatureHelpItems (tsserver.js:106296:56)
+    at Object.getSignatureHelpItems (tsserver.js:121088:37)
+    at IOSession.Session.getSignatureHelpItems (tsserver.js:130039:62)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (tsserver.js:128945:61)
+    at tsserver.js:130466:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:130457:28)
+    at IOSession.Session.executeCommand (tsserver.js:130466:33)
+    at IOSession.Session.onMessage (tsserver.js:130488:35)
+    at Interface.<anonymous> (tsserver.js:131789:27)
+    at Interface.emit (events.js:182:13)
+    at Interface._onLine (readline.js:290:10)
+    at Interface._normalWrite (readline.js:433:12)
+    at Socket.ondata (readline.js:149:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at Pipe.onread (net.js:636:20): Error: TypeScript Server Error (3.4.5)
+Cannot read property 'emitNode' of undefined
+TypeError: Cannot read property 'emitNode' of undefined
+    at Object.getStartsOnNewLine (tsserver.js:63202:29)
+    at shouldWriteSeparatingLineTerminator (tsserver.js:86516:27)
+    at emitNodeList (tsserver.js:86301:29)
+    at emitList (tsserver.js:86198:13)
+    at Object.writeList (tsserver.js:83641:13)
+    at tsserver.js:106759:29
+    at Object.mapToDisplayParts (tsserver.js:96621:13)
+    at itemInfoForParameters (tsserver.js:106756:41)
+    at getSignatureHelpItem (tsserver.js:106722:95)
+    at tsserver.js:106695:79
+    at Array.map (<anonymous>)
+    at createSignatureHelpItems (tsserver.js:106695:36)
+    at tsserver.js:106367:120
+    at Object.runWithCancellationToken (tsserver.js:31444:28)
+    at tsserver.js:106367:44
+    at Object.firstDefined (tsserver.js:305:26)
+    at tsserver.js:106363:27
+    at Object.firstDefined (tsserver.js:305:26)
+    at createJSSignatureHelpItems (tsserver.js:106362:56)
+    at Object.getSignatureHelpItems (tsserver.js:106296:56)
+    at Object.getSignatureHelpItems (tsserver.js:121088:37)
+    at IOSession.Session.getSignatureHelpItems (tsserver.js:130039:62)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (tsserver.js:128945:61)
+    at tsserver.js:130466:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:130457:28)
+    at IOSession.Session.executeCommand (tsserver.js:130466:33)
+    at IOSession.Session.onMessage (tsserver.js:130488:35)
+    at Interface.<anonymous> (tsserver.js:131789:27)
+    at Interface.emit (events.js:182:13)
+    at Interface._onLine (readline.js:290:10)
+    at Interface._normalWrite (readline.js:433:12)
+    at Socket.ondata (readline.js:149:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at Pipe.onread (net.js:636:20)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:176329)
+	at v.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:181697)
+	at v.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180449)
+	at constructor._reader.onData.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:179805)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:720)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:185678)
+	at Socket.t.Reader.constructor.e.on.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:185326)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:279:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onread (net.js:636:20)
+[2019-07-16 09:04:41.838] [renderer1] [error] Unable to move/copy when source path is equal or parent of target path: Error: Unable to move/copy when source path is equal or parent of target path
+    at b.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3316:930)
+    at Generator.next (<anonymous>)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:621
+    at new Promise (<anonymous>)
+    at n (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:398)
+    at b.doValidateMoveCopy (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3316:783)
+    at b.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3315:395)
+    at Generator.next (<anonymous>)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:621
+    at new Promise (<anonymous>)
+    at n (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:398)
+    at b.doMoveCopy (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3315:320)
+    at b.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3314:783)
+    at Generator.next (<anonymous>)
+    at r (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:454)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-07-16 09:04:49.314] [renderer1] [error] Unable to move/copy when source path is equal or parent of target path: Error: Unable to move/copy when source path is equal or parent of target path
+    at b.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3316:930)
+    at Generator.next (<anonymous>)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:621
+    at new Promise (<anonymous>)
+    at n (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:398)
+    at b.doValidateMoveCopy (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3316:783)
+    at b.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3315:395)
+    at Generator.next (<anonymous>)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:621
+    at new Promise (<anonymous>)
+    at n (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:398)
+    at b.doMoveCopy (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3315:320)
+    at b.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3314:783)
+    at Generator.next (<anonymous>)
+    at r (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:454)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-07-16 09:14:13.757] [renderer1] [error] Unable to move/copy when source path is equal or parent of target path: Error: Unable to move/copy when source path is equal or parent of target path
+    at b.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3316:930)
+    at Generator.next (<anonymous>)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:621
+    at new Promise (<anonymous>)
+    at n (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:398)
+    at b.doValidateMoveCopy (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3316:783)
+    at b.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3315:395)
+    at Generator.next (<anonymous>)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:621
+    at new Promise (<anonymous>)
+    at n (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:398)
+    at b.doMoveCopy (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3315:320)
+    at b.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3314:783)
+    at Generator.next (<anonymous>)
+    at r (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:454)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-07-16 09:24:38.105] [renderer1] [error] Error: Error: ENOENT: no such file or directory, stat '/var/www/tabione-front/.vscode'
+[2019-07-16 09:24:42.222] [renderer1] [warning] UNRESPONSIVE extension host, 'onecentlin.laravel-blade' took 99% of 432.589ms, saved PROFILE here: '/tmp/exthost-23c00c.cpuprofile' [{"id":"gc","total":1315,"percentage":0},{"id":"onecentlin.laravel-blade","total":427582,"percentage":99},{"id":"program","total":480,"percentage":0},{"id":"self","total":761,"percentage":0},{"id":"vscode.merge-conflict","total":626,"percentage":0}]
+[2019-07-16 09:32:10.435] [renderer1] [error] Error: Error: ENOENT: no such file or directory, stat '/var/www/nodejs/nodejs-api-react/.vscode'
+[2019-07-16 10:22:03.139] [renderer1] [error] Error: Error: ENOENT: no such file or directory, stat '/var/www/tabione-front/.vscode'
+[2019-07-16 10:22:06.631] [renderer1] [warning] UNRESPONSIVE extension host, 'vscode-icons-team.vscode-icons' took 97% of 243.066ms, saved PROFILE here: '/tmp/exthost-c9131a.cpuprofile' [{"id":"program","total":3561,"percentage":1},{"id":"self","total":1240,"percentage":1},{"id":"vscode-icons-team.vscode-icons","total":236380,"percentage":97}]
+[2019-07-16 10:24:11.562] [renderer1] [error] Error: Error: ENOENT: no such file or directory, stat '/var/www/nodejs/nodejs-api-react/.vscode'
+[2019-07-16 10:24:23.102] [renderer1] [warning] {}
+[2019-07-16 10:40:20.483] [renderer1] [error] Error: Error: ENOENT: no such file or directory, stat '/var/www/tabione-front/.vscode'
+[2019-07-16 10:44:47.655] [renderer1] [error] Error: Error: ENOENT: no such file or directory, stat '/var/www/nodejs/nodejs-api-react/.vscode'
+[2019-07-16 16:39:07.785] [renderer1] [error] TypeScript Server Error (3.4.5)
+Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+    at Object.cast (tsserver.js:1434:22)
+    at doChange (tsserver.js:115512:39)
+    at tsserver.js:115504:96
+    at Function.ChangeTracker.with (tsserver.js:110610:17)
+    at Object.getCodeActions (tsserver.js:115504:64)
+    at tsserver.js:111596:121
+    at Object.flatMap (tsserver.js:571:25)
+    at Object.getFixes (tsserver.js:111596:23)
+    at tsserver.js:121245:35
+    at Object.flatMap (tsserver.js:571:25)
+    at Object.getCodeFixesAtPosition (tsserver.js:121243:23)
+    at IOSession.Session.getCodeFixes (tsserver.js:130292:64)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (tsserver.js:129048:61)
+    at tsserver.js:130466:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:130457:28)
+    at IOSession.Session.executeCommand (tsserver.js:130466:33)
+    at IOSession.Session.onMessage (tsserver.js:130488:35)
+    at Interface.<anonymous> (tsserver.js:131789:27)
+    at Interface.emit (events.js:182:13)
+    at Interface._onLine (readline.js:290:10)
+    at Interface._normalWrite (readline.js:433:12)
+    at Socket.ondata (readline.js:149:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at Pipe.onread (net.js:636:20): Error: TypeScript Server Error (3.4.5)
+Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+    at Object.cast (tsserver.js:1434:22)
+    at doChange (tsserver.js:115512:39)
+    at tsserver.js:115504:96
+    at Function.ChangeTracker.with (tsserver.js:110610:17)
+    at Object.getCodeActions (tsserver.js:115504:64)
+    at tsserver.js:111596:121
+    at Object.flatMap (tsserver.js:571:25)
+    at Object.getFixes (tsserver.js:111596:23)
+    at tsserver.js:121245:35
+    at Object.flatMap (tsserver.js:571:25)
+    at Object.getCodeFixesAtPosition (tsserver.js:121243:23)
+    at IOSession.Session.getCodeFixes (tsserver.js:130292:64)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (tsserver.js:129048:61)
+    at tsserver.js:130466:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:130457:28)
+    at IOSession.Session.executeCommand (tsserver.js:130466:33)
+    at IOSession.Session.onMessage (tsserver.js:130488:35)
+    at Interface.<anonymous> (tsserver.js:131789:27)
+    at Interface.emit (events.js:182:13)
+    at Interface._onLine (readline.js:290:10)
+    at Interface._normalWrite (readline.js:433:12)
+    at Socket.ondata (readline.js:149:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at Pipe.onread (net.js:636:20)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:176329)
+	at v.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:181697)
+	at v.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180449)
+	at constructor._reader.onData.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:179805)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:720)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:185678)
+	at Socket.t.Reader.constructor.e.on.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:185326)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:279:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onread (net.js:636:20)

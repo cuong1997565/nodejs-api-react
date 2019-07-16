@@ -30,6 +30,7 @@ const upload = multer({
 });
 
 router.get('/', acountController.acount_list);
+router.post('/sreach/', acountController.acount_sreach);
 router.post('/',upload.single('image') , acountController.acount_create);
 router.get('/:acountId', acountController.acount_edit);
 router.patch('/:acountId',upload.single("image"), acountController.acount_update);

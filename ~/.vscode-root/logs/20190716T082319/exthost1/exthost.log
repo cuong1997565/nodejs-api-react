@@ -1,0 +1,328 @@
+[2019-07-16 08:23:23.890] [exthost] [info] extension host started
+[2019-07-16 08:23:23.919] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-07-16 08:23:23.919] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-07-16 08:23:23.931] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-07-16 08:23:23.931] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-07-16 08:23:23.986] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-07-16 08:23:23.986] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-07-16 08:23:24.133] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-07-16 08:23:24.133] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-07-16 08:23:24.256] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-07-16 08:23:24.256] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/dbaeumer.vscode-eslint-1.9.0/client/out/extension
+[2019-07-16 08:23:24.389] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2019-07-16 08:23:24.389] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/formulahendry.auto-close-tag-0.5.6/out/src/extension
+[2019-07-16 08:23:24.493] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"activationEvent":"*"}
+[2019-07-16 08:23:24.493] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/formulahendry.auto-rename-tag-0.1.0/out/src/extension
+[2019-07-16 08:23:24.572] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons {"startup":true,"activationEvent":"*"}
+[2019-07-16 08:23:24.572] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/vscode-icons-team.vscode-icons-8.8.0/out/src/
+[2019-07-16 08:23:24.752] [exthost] [info] eager extensions activated
+[2019-07-16 08:23:36.859] [exthost] [info] extension host started
+[2019-07-16 08:23:36.877] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-07-16 08:23:36.877] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-07-16 08:23:36.880] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-07-16 08:23:36.880] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-07-16 08:23:36.894] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-07-16 08:23:36.894] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-07-16 08:23:36.984] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-07-16 08:23:36.984] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-07-16 08:23:36.988] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-07-16 08:23:36.988] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/dbaeumer.vscode-eslint-1.9.0/client/out/extension
+[2019-07-16 08:23:37.024] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2019-07-16 08:23:37.024] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/formulahendry.auto-close-tag-0.5.6/out/src/extension
+[2019-07-16 08:23:37.025] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"activationEvent":"*"}
+[2019-07-16 08:23:37.025] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/formulahendry.auto-rename-tag-0.1.0/out/src/extension
+[2019-07-16 08:23:37.026] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons {"startup":true,"activationEvent":"*"}
+[2019-07-16 08:23:37.026] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/vscode-icons-team.vscode-icons-8.8.0/out/src/
+[2019-07-16 08:23:37.085] [exthost] [info] eager extensions activated
+[2019-07-16 08:25:57.481] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2019-07-16 08:25:57.481] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-07-16 08:25:57.630] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2019-07-16 08:25:57.630] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/ecmel.vscode-html-css-0.2.0/out/src/extension
+[2019-07-16 08:26:45.304] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-07-16 08:26:45.304] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2019-07-16 08:54:36.688] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-07-16 08:54:36.688] [exthost] [error] Error: TypeScript Server Error (3.4.5)
+Cannot read property 'emitNode' of undefined
+TypeError: Cannot read property 'emitNode' of undefined
+    at Object.getStartsOnNewLine (tsserver.js:63202:29)
+    at shouldWriteSeparatingLineTerminator (tsserver.js:86516:27)
+    at emitNodeList (tsserver.js:86301:29)
+    at emitList (tsserver.js:86198:13)
+    at Object.writeList (tsserver.js:83641:13)
+    at tsserver.js:106759:29
+    at Object.mapToDisplayParts (tsserver.js:96621:13)
+    at itemInfoForParameters (tsserver.js:106756:41)
+    at getSignatureHelpItem (tsserver.js:106722:95)
+    at tsserver.js:106695:79
+    at Array.map (<anonymous>)
+    at createSignatureHelpItems (tsserver.js:106695:36)
+    at tsserver.js:106367:120
+    at Object.runWithCancellationToken (tsserver.js:31444:28)
+    at tsserver.js:106367:44
+    at Object.firstDefined (tsserver.js:305:26)
+    at tsserver.js:106363:27
+    at Object.firstDefined (tsserver.js:305:26)
+    at createJSSignatureHelpItems (tsserver.js:106362:56)
+    at Object.getSignatureHelpItems (tsserver.js:106296:56)
+    at Object.getSignatureHelpItems (tsserver.js:121088:37)
+    at IOSession.Session.getSignatureHelpItems (tsserver.js:130039:62)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (tsserver.js:128945:61)
+    at tsserver.js:130466:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:130457:28)
+    at IOSession.Session.executeCommand (tsserver.js:130466:33)
+    at IOSession.Session.onMessage (tsserver.js:130488:35)
+    at Interface.<anonymous> (tsserver.js:131789:27)
+    at Interface.emit (events.js:182:13)
+    at Interface._onLine (readline.js:290:10)
+    at Interface._normalWrite (readline.js:433:12)
+    at Socket.ondata (readline.js:149:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at Pipe.onread (net.js:636:20)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:176329)
+	at v.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:181697)
+	at v.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180449)
+	at constructor._reader.onData.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:179805)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:720)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:185678)
+	at Socket.t.Reader.constructor.e.on.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:185326)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:279:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onread (net.js:636:20)
+[2019-07-16 09:23:28.076] [exthost] [info] extension host started
+[2019-07-16 09:23:28.156] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-07-16 09:23:28.156] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-07-16 09:23:28.254] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-07-16 09:23:28.254] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-07-16 09:23:28.277] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-07-16 09:23:28.277] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-07-16 09:23:28.494] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-07-16 09:23:28.494] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-07-16 09:23:28.551] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-07-16 09:23:28.551] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/dbaeumer.vscode-eslint-1.9.0/client/out/extension
+[2019-07-16 09:23:28.754] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2019-07-16 09:23:28.754] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/formulahendry.auto-close-tag-0.5.6/out/src/extension
+[2019-07-16 09:23:28.973] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"activationEvent":"*"}
+[2019-07-16 09:23:28.973] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/formulahendry.auto-rename-tag-0.1.0/out/src/extension
+[2019-07-16 09:23:28.984] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons {"startup":true,"activationEvent":"*"}
+[2019-07-16 09:23:28.984] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/vscode-icons-team.vscode-icons-8.8.0/out/src/
+[2019-07-16 09:23:29.542] [exthost] [info] eager extensions activated
+[2019-07-16 09:24:37.523] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":false,"activationEvent":"onLanguage:blade"}
+[2019-07-16 09:24:37.523] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/ecmel.vscode-html-css-0.2.0/out/src/extension
+[2019-07-16 09:24:41.284] [exthost] [info] ExtensionService#_doActivateExtension onecentlin.laravel-blade {"startup":false,"activationEvent":"onLanguage:blade"}
+[2019-07-16 09:24:41.284] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/onecentlin.laravel-blade-1.20.0/out/src/extension
+[2019-07-16 09:25:13.527] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"activationEvent":"onLanguage:php"}
+[2019-07-16 09:25:13.527] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2019-07-16 09:32:10.062] [exthost] [info] extension host started
+[2019-07-16 09:32:10.153] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2019-07-16 09:32:10.153] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-07-16 09:32:10.318] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2019-07-16 09:32:10.318] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/ecmel.vscode-html-css-0.2.0/out/src/extension
+[2019-07-16 09:32:10.733] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-07-16 09:32:10.733] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-07-16 09:32:10.736] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-07-16 09:32:10.736] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-07-16 09:32:10.783] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-07-16 09:32:10.783] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-07-16 09:32:10.971] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-07-16 09:32:10.971] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-07-16 09:32:10.979] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-07-16 09:32:10.979] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/dbaeumer.vscode-eslint-1.9.0/client/out/extension
+[2019-07-16 09:32:11.074] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2019-07-16 09:32:11.074] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/formulahendry.auto-close-tag-0.5.6/out/src/extension
+[2019-07-16 09:32:11.075] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"activationEvent":"*"}
+[2019-07-16 09:32:11.075] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/formulahendry.auto-rename-tag-0.1.0/out/src/extension
+[2019-07-16 09:32:11.080] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons {"startup":true,"activationEvent":"*"}
+[2019-07-16 09:32:11.080] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/vscode-icons-team.vscode-icons-8.8.0/out/src/
+[2019-07-16 09:32:11.233] [exthost] [info] eager extensions activated
+[2019-07-16 09:33:30.417] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-07-16 09:33:30.417] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2019-07-16 10:22:02.889] [exthost] [info] extension host started
+[2019-07-16 10:22:02.968] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":false,"activationEvent":"onLanguage:blade"}
+[2019-07-16 10:22:02.969] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/ecmel.vscode-html-css-0.2.0/out/src/extension
+[2019-07-16 10:22:05.711] [exthost] [info] ExtensionService#_doActivateExtension onecentlin.laravel-blade {"startup":false,"activationEvent":"onLanguage:blade"}
+[2019-07-16 10:22:05.711] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/onecentlin.laravel-blade-1.20.0/out/src/extension
+[2019-07-16 10:22:05.862] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:22:05.862] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-07-16 10:22:05.890] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:22:05.890] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-07-16 10:22:05.913] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:22:05.913] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-07-16 10:22:06.149] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:22:06.149] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-07-16 10:22:06.167] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:22:06.167] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/dbaeumer.vscode-eslint-1.9.0/client/out/extension
+[2019-07-16 10:22:06.225] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:22:06.225] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/formulahendry.auto-close-tag-0.5.6/out/src/extension
+[2019-07-16 10:22:06.235] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:22:06.235] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/formulahendry.auto-rename-tag-0.1.0/out/src/extension
+[2019-07-16 10:22:06.247] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:22:06.247] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/vscode-icons-team.vscode-icons-8.8.0/out/src/
+[2019-07-16 10:22:06.502] [exthost] [info] eager extensions activated
+[2019-07-16 10:24:11.436] [exthost] [info] extension host started
+[2019-07-16 10:24:11.508] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2019-07-16 10:24:11.508] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-07-16 10:24:11.667] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2019-07-16 10:24:11.667] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/ecmel.vscode-html-css-0.2.0/out/src/extension
+[2019-07-16 10:24:12.088] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:24:12.089] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-07-16 10:24:12.095] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:24:12.095] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-07-16 10:24:12.137] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:24:12.137] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-07-16 10:24:12.278] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:24:12.278] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-07-16 10:24:12.289] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:24:12.289] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/dbaeumer.vscode-eslint-1.9.0/client/out/extension
+[2019-07-16 10:24:12.362] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:24:12.362] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/formulahendry.auto-close-tag-0.5.6/out/src/extension
+[2019-07-16 10:24:12.366] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:24:12.366] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/formulahendry.auto-rename-tag-0.1.0/out/src/extension
+[2019-07-16 10:24:12.371] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:24:12.371] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/vscode-icons-team.vscode-icons-8.8.0/out/src/
+[2019-07-16 10:24:12.468] [exthost] [info] eager extensions activated
+[2019-07-16 10:24:23.095] [exthost] [error] onWillSaveTextDocument-listener from extension 'dbaeumer.vscode-eslint' threw ERROR
+[2019-07-16 10:24:23.097] [exthost] [error] Error: timeout
+	at Timeout.define._deliverEventAsync.setTimeout [as _onTimeout] (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:446:964)
+	at ontimeout (timers.js:427:11)
+	at tryOnTimeout (timers.js:289:5)
+	at listOnTimeout (timers.js:252:5)
+	at Timer.processTimers (timers.js:212:10)
+[2019-07-16 10:25:12.214] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-07-16 10:25:12.214] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2019-07-16 10:40:19.988] [exthost] [info] extension host started
+[2019-07-16 10:40:20.106] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":false,"activationEvent":"onLanguage:blade"}
+[2019-07-16 10:40:20.106] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/ecmel.vscode-html-css-0.2.0/out/src/extension
+[2019-07-16 10:40:22.324] [exthost] [info] ExtensionService#_doActivateExtension onecentlin.laravel-blade {"startup":false,"activationEvent":"onLanguage:blade"}
+[2019-07-16 10:40:22.324] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/onecentlin.laravel-blade-1.20.0/out/src/extension
+[2019-07-16 10:40:22.504] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:40:22.504] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-07-16 10:40:22.565] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:40:22.565] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-07-16 10:40:22.612] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:40:22.612] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-07-16 10:40:22.748] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:40:22.748] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-07-16 10:40:22.769] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:40:22.769] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/dbaeumer.vscode-eslint-1.9.0/client/out/extension
+[2019-07-16 10:40:22.828] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:40:22.828] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/formulahendry.auto-close-tag-0.5.6/out/src/extension
+[2019-07-16 10:40:22.834] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:40:22.834] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/formulahendry.auto-rename-tag-0.1.0/out/src/extension
+[2019-07-16 10:40:22.847] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:40:22.847] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/vscode-icons-team.vscode-icons-8.8.0/out/src/
+[2019-07-16 10:40:22.993] [exthost] [info] eager extensions activated
+[2019-07-16 10:44:47.117] [exthost] [info] extension host started
+[2019-07-16 10:44:47.258] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2019-07-16 10:44:47.258] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-07-16 10:44:47.530] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2019-07-16 10:44:47.530] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/ecmel.vscode-html-css-0.2.0/out/src/extension
+[2019-07-16 10:44:49.381] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:44:49.381] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-07-16 10:44:49.383] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:44:49.383] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2019-07-16 10:44:49.397] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:44:49.397] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2019-07-16 10:44:49.508] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:44:49.508] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2019-07-16 10:44:49.513] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:44:49.513] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/dbaeumer.vscode-eslint-1.9.0/client/out/extension
+[2019-07-16 10:44:49.553] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:44:49.553] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/formulahendry.auto-close-tag-0.5.6/out/src/extension
+[2019-07-16 10:44:49.555] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:44:49.555] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/formulahendry.auto-rename-tag-0.1.0/out/src/extension
+[2019-07-16 10:44:49.557] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons {"startup":true,"activationEvent":"*"}
+[2019-07-16 10:44:49.557] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/vscode-icons-team.vscode-icons-8.8.0/out/src/
+[2019-07-16 10:44:49.692] [exthost] [info] eager extensions activated
+[2019-07-16 10:45:21.789] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-07-16 10:45:21.789] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2019-07-16 16:39:07.733] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-07-16 16:39:07.783] [exthost] [error] Error: TypeScript Server Error (3.4.5)
+Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+    at Object.cast (tsserver.js:1434:22)
+    at doChange (tsserver.js:115512:39)
+    at tsserver.js:115504:96
+    at Function.ChangeTracker.with (tsserver.js:110610:17)
+    at Object.getCodeActions (tsserver.js:115504:64)
+    at tsserver.js:111596:121
+    at Object.flatMap (tsserver.js:571:25)
+    at Object.getFixes (tsserver.js:111596:23)
+    at tsserver.js:121245:35
+    at Object.flatMap (tsserver.js:571:25)
+    at Object.getCodeFixesAtPosition (tsserver.js:121243:23)
+    at IOSession.Session.getCodeFixes (tsserver.js:130292:64)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (tsserver.js:129048:61)
+    at tsserver.js:130466:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:130457:28)
+    at IOSession.Session.executeCommand (tsserver.js:130466:33)
+    at IOSession.Session.onMessage (tsserver.js:130488:35)
+    at Interface.<anonymous> (tsserver.js:131789:27)
+    at Interface.emit (events.js:182:13)
+    at Interface._onLine (readline.js:290:10)
+    at Interface._normalWrite (readline.js:433:12)
+    at Socket.ondata (readline.js:149:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at Pipe.onread (net.js:636:20)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:176329)
+	at v.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:181697)
+	at v.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180449)
+	at constructor._reader.onData.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:179805)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:720)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:185678)
+	at Socket.t.Reader.constructor.e.on.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:185326)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:279:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onread (net.js:636:20)
+[2019-07-16 16:39:07.959] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2019-07-16 16:39:07.959] [exthost] [error] Error: TypeScript Server Error (3.4.5)
+Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isLabeledStatement'.
+    at Object.cast (tsserver.js:1434:22)
+    at doChange (tsserver.js:115512:39)
+    at tsserver.js:115504:96
+    at Function.ChangeTracker.with (tsserver.js:110610:17)
+    at Object.getCodeActions (tsserver.js:115504:64)
+    at tsserver.js:111596:121
+    at Object.flatMap (tsserver.js:571:25)
+    at Object.getFixes (tsserver.js:111596:23)
+    at tsserver.js:121245:35
+    at Object.flatMap (tsserver.js:571:25)
+    at Object.getCodeFixesAtPosition (tsserver.js:121243:23)
+    at IOSession.Session.getCodeFixes (tsserver.js:130292:64)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (tsserver.js:129048:61)
+    at tsserver.js:130466:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:130457:28)
+    at IOSession.Session.executeCommand (tsserver.js:130466:33)
+    at IOSession.Session.onMessage (tsserver.js:130488:35)
+    at Interface.<anonymous> (tsserver.js:131789:27)
+    at Interface.emit (events.js:182:13)
+    at Interface._onLine (readline.js:290:10)
+    at Interface._normalWrite (readline.js:433:12)
+    at Socket.ondata (readline.js:149:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at Pipe.onread (net.js:636:20)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:176329)
+	at v.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:181697)
+	at v.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:180449)
+	at constructor._reader.onData.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:179805)
+	at u.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:47:720)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:185678)
+	at Socket.t.Reader.constructor.e.on.e (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:185326)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:279:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onread (net.js:636:20)

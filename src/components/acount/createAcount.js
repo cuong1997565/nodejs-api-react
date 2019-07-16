@@ -24,7 +24,6 @@ class createAcount extends Component {
     }
 
     onChangeHandler=(event)=>{
-        console.log(event.target.files[0])
         this.setState({
             image: event.target.files[0]
           })
@@ -41,7 +40,7 @@ class createAcount extends Component {
         formData.append('phone', this.state.phone);
         formData.append('image', this.state.image);
         this.props.actAddAcount(formData);
-        // this.props.history.push('/index-count');
+        this.props.history.push('/index-count');
     }
 
     componentWillMount(){

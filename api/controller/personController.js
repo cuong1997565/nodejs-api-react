@@ -132,3 +132,8 @@ exports.person_delete = (req, res, next) => {
         })
     })
 }
+
+
+exports.acount_sreach = (req, res, next) => {
+    console.log(req.params.keyword);
+}

@@ -1,0 +1,79 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /var/www/nodejs/nodejs-api-react
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse test1
+> git rev-parse --symbolic-full-name test1@{u}
+fatal: no upstream configured for branch 'test1'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git show :src/components/acount/editAcount.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse test1
+> git rev-parse --symbolic-full-name test1@{u}
+fatal: no upstream configured for branch 'test1'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse test1
+> git rev-parse --symbolic-full-name test1@{u}
+fatal: no upstream configured for branch 'test1'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse test1
+> git rev-parse --symbolic-full-name test1@{u}
+fatal: no upstream configured for branch 'test1'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse test1
+> git rev-parse --symbolic-full-name test1@{u}
+fatal: no upstream configured for branch 'test1'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse test1
+> git rev-parse --symbolic-full-name test1@{u}
+fatal: no upstream configured for branch 'test1'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git show :src/actions/index.js
+> git check-ignore -z --stdin
+> git show :src/components/person/edit.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse test1
+> git rev-parse --symbolic-full-name test1@{u}
+fatal: no upstream configured for branch 'test1'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse test1
+> git rev-parse --symbolic-full-name test1@{u}
+fatal: no upstream configured for branch 'test1'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/components/acount/editAcount.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse test1
+> git rev-parse --symbolic-full-name test1@{u}
+fatal: no upstream configured for branch 'test1'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :src/components/person/edit.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse test1

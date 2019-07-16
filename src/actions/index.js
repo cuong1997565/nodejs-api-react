@@ -113,3 +113,58 @@ export const actAddAcount = (acount) => {
         acount
     }
 }
+
+
+
+export const actEditAcountRequest = (id) => {
+    return (dispatch) => {
+        return callApi(`acount/${id}`,'GET',null).then(res => {
+            dispatch(actGetAcount(res.data));
+        });
+    }
+}
+
+export const actGetAcount = (acounts) => {
+    return {
+        type: Types.EDIT_ACOUNT,
+        acounts
+    }
+}
+
+export const actUpdateAcountRequest = (acount)  =>{
+    return (dispatch) => {
+        const config = {
+            headers: {
+                'content-type': 'multipart/form-data'
+            }
+        };
+        var id = acount.get('_id');
+        return callApi(`acount/${id}`,'PATCH',acount, config).then(res => {
+            dispatch(actUpdateAcount(res.data.acount));
+        })
+    }
+}
+
+export const actUpdateAcount = (acount) => {
+    return {
+        type: Types.UPDATE_ACOUNT,
+        acount
+    }
+}
+
+
+export const actDeleteAcountRequest = (id) => {
+    console.log(id);
+    return (dispatch) => {
+        return callApi(`acount/${id}`,'DELETE',null).then(res => {
+            dispatch(actDeleteAcount(id));
+        })
+    }
+}
+
+export const actDeleteAcount = (id) => {
+    return {
+        type: Types.DELETE_ACOUNT, 
+        id
+    }
+}
