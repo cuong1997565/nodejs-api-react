@@ -6,6 +6,7 @@ import Edit from './components/person/edit';
 import Index from './components/person/index';
 import indexAcount from './components/acount/indexAcount';
 import createAcount from './components/acount/createAcount';
+import editAcount from './components/acount/editAcount';
 function App() {
   return (
     <Router>
@@ -23,7 +24,7 @@ function App() {
                         <Link to={'/index'} className="nav-link">Index</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to={'/index-count'} className="nav-link">Acount</Link>
+                        <Link to={'/index-acount'} className="nav-link">Acount</Link>
                     </li>
                 </ul>
             </div>
@@ -33,8 +34,9 @@ function App() {
             <Route exact path='/create' component={ Create } />
             <Route path='/edit/:id' component={ Edit } />
             <Route path='/index' component={ Index } />
-            <Route path='/index-count' component={ indexAcount } />
-            <Route path='/create-count' component={ createAcount } />
+            <Route path='/index-acount' component={ indexAcount } />
+            <Route path='/create-acount' component={ createAcount } />
+            <Route path='edit-acount/:id' component={ editAcount } />
 
         </Switch>
     </div>

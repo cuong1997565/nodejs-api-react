@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { actFetchPersonsRequest } from '../../actions/index';
+import { actFetchPersonsRequest, actAddAcountRequest } from '../../actions/index';
 import { connect } from 'react-redux';
 
 class createAcount extends Component {
@@ -20,19 +20,39 @@ class createAcount extends Component {
         this.setState({
             [name]: value
         })
+
     }
+
+    onChangeHandler=(event)=>{
+        console.log(event.target.files[0])
+        this.setState({
+            image: event.target.files[0]
+          })
+    
+    }
+    
 
     onSubmit = (event) => {
         event.preventDefault();
-        console.log(this.state);
+        let formData = new FormData();
+        formData.append('personId', this.state.personId);
+        formData.append('email', this.state.email);
+        formData.append('password', this.state.password);
+        formData.append('phone', this.state.phone);
+        formData.append('image', this.state.image);
+        this.props.actAddAcount(formData);
+        // this.props.history.push('/index-count');
     }
 
-    componentDidCatch(){
+    componentWillMount(){
         this.props.actFetchPerson();
     }
 
     render() {
-        console.log(this.props.persons);
+        var { persons } = this.props;
+        var elmAcount =  persons.map((person, index) => {
+            return   <option key={index}  value={person._id}>{person.name}</option>
+        });
         return (
             <div style={{ marginTop: 10 }}>
                 <h3> Add New Acount </h3>
@@ -44,11 +64,7 @@ class createAcount extends Component {
                             value={this.state.personId} 
                             onChange={this.onChange}
                             name="personId">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
+                           {elmAcount}
                         </select>
                     </div>
                     <div className="form-group">
@@ -80,15 +96,13 @@ class createAcount extends Component {
                     </div>
                     <div className="form-group">
                         <label>Image:</label>
-                        <input
-                            type="file"
-                            className="form-control"
-                            name="image"
-                            value={ this.state.image }
-                            onChange={this.onChange} />
+                        <input 
+                        type="file" 
+                        name="file" 
+                        className="form-control" 
+                        onChange={this.onChangeHandler}/>
+
                     </div>
-
-
                     <div className="form-group">
                         <input type="submit" value="Register Business" className="btn btn-primary" />
                     </div>
@@ -108,6 +122,9 @@ const mapDispatchToProps = (dispatch,props) => {
     return {
         actFetchPerson : () => {
             dispatch(actFetchPersonsRequest());
+        },
+        actAddAcount : (acount) => {
+            dispatch(actAddAcountRequest(acount));
         }
     }
 }
